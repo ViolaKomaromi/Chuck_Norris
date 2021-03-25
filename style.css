@@ -8,6 +8,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat; 
     font-weight: bold;
+  
 
 }
 
@@ -19,7 +20,8 @@ div{
     font-size: 1.6rem;
     color:rgb(14, 12, 1);
     text-shadow: 3px 5px 10px black;
-
+    background: rgba(255, 255, 255, 0.466);
+    box-shadow: 3px 3px 10px black;
 }
 
 button{
@@ -45,5 +47,30 @@ img{
     padding: -10px;
 }
 
-
+@media screen and (max-width: 420px){
+    body {
+        width: 100%;
+        height:50vh;
+        background-position: left;
+        background-repeat: repeat;
+    }
+    div{
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        /* padding: 10px; */
+        font-size: 1rem;
+        color:rgb(14, 12, 1);
+    }
+    img{
+        
+        visibility: hidden;
+    }
+    button{
+        width: auto;
+        height: auto;
+        margin:  10% ;
+        font-size: 1.5rem;
+    }
+}
 
