@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'New Tegomin', serif;
+    background-image: url('https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/34d6f6b9-2137-4ebd-803d-60d3783dfcc3');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    font-weight: bold;
+
+}
+
+div{
+    width: 40%;
+    height: auto;
+    margin: 50px;
+    padding: 20px;
+    font-size: 1.6rem;
+    color:rgb(14, 12, 1);
+    text-shadow: 3px 5px 10px black;
+
+}
+
+button{
+    width: auto;
+    height: 70px;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'New Tegomin', serif ;
+    border-radius: 10px;
+    background: rgb(201, 197, 197);
+}
+button:hover{
+    color: rgb(201, 197, 197);
+    background: black;
+}
+
+img{
+    display: inline-block;
+    margin: -10px;
+    padding: -10px;
+}
+
+
+
